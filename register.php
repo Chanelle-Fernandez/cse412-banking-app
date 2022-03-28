@@ -1,8 +1,8 @@
 <?php
-$hostname = "ec2-18-215-96-22.compute-1.amazonaws.com";
-$dbname = "db926f75ofgha2";
-$username = "glkawdwwyajxsd";
-$pass = "ab13a8d4d623d059a6c6fa355da18839af9ce573edc56ae8ab09ba0b99b70a72";
+$hostname = "ec2-44-194-92-192.compute-1.amazonaws.com";
+$dbname = "dc35nfh1ras1c9";
+$username = "obhuvqmvswdwgp";
+$pass = "e0c12b3cf78a69fdaa45f3790d939cc0205181ce634d747be07f79cb7e130c67";
 
 // Create connection
 $db_conn = pg_connect(" host = $hostname dbname = $dbname user = $username password = $pass ");
