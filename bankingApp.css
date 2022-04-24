@@ -1,0 +1,33 @@
+﻿body
+{
+    background-color: #F2F4F3;
+    color: #3A0CA3;
+}
+
+.rectangle{
+    height: 500px;
+    width: 400px;
+    background-color: #BFECFA;
+    position: center;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #4CC9F0;
+}
+
+button{
+    display: block;
+    margin: 50px auto 50px auto;
+    transition-duration: 0.4s;
+    width: 100px;
+    height: 50px;
+    background-color: #4361EE;
+    color:white;
+
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+}
